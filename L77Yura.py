@@ -86,6 +86,11 @@ compressed_bin_str_with_flag = compression_bits + compressed_data_modified
 print("\nCompressed Data with Flag:")
 print(compressed_bin_str_with_flag)
 
+# Print only the compressed data after modification
+print(f"\nFinal Compressed Data:")
+print(compressed_data_modified)
+print(len(compressed_data_modified))
+
 # Decompress the data
 decompressed_data = decompress_data((compressed_a, compressed_b), compression_bits)
 print("\nDecompressed Data (Hex):")
