@@ -7,5 +7,4 @@ c = a + b
 print(c)  # Prints 56
 float(c)
 float(b)
-print(c/b)
 print("Jenny's \\n ''lecture''")
